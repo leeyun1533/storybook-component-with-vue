@@ -15,7 +15,7 @@ Notion에 명시된 상세한 명세 덕분에 재밌는 개발을 했습니다.
 사용한 기술은 아래와 같습니다.
 
 * 웹 프론트엔드 프레임워크 - Vue.js
-* CSS Pre-processor - Scss
+* CSS Pre-processor - Scss
 * UI 테스팅 - Storybook
 * 패키지 매니저 - yarn
 * 모듈 번들러 - Webpack
