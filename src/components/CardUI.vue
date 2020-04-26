@@ -1,6 +1,6 @@
 <template>
   <div class="card" :class="horizontal ? 'horizontal-style' : ''">
-    <div class="card-body" :style="bodyStyle">
+    <div class="card-body">
       <slot>
         <div class="background-section" :style="{'background-image': `url(${imageUrl})`}"></div>
         <div>
