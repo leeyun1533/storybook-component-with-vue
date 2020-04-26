@@ -1,4 +1,5 @@
 import CardUi from '../../components/CardUI.vue'
+import CardExample from './Card.vue'
 
 import { text, boolean } from '@storybook/addon-knobs'
 export default {
@@ -134,6 +135,15 @@ export const slot = () => ({
           </div>
         </div>
       </CardUi>
+    )
+  }
+});
+
+export const example = () => ({
+  components: { CardExample },
+  render() {
+    return (
+      <CardExample />
     )
   }
 });
