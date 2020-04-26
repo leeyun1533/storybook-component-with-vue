@@ -28,7 +28,7 @@ export default {
     availableStar: Boolean,
     starLabel: String,
     imageUrl: String,
-    horizontal: false
+    horizontal: Boolean
   },
   data() {
     return {
